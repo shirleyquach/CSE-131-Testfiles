@@ -1,0 +1,103 @@
+function : int a()  //error - float not assignable to int
+{
+    return 2.5;
+}
+
+function : bool b() //error - int not assignable to bool
+{
+    return 1;
+}
+
+function : float c() //error - bool not assignable to float
+{
+    return true;
+}
+
+function : int & x() //error - bool not equivalent to int
+{
+    bool q;
+    return q;
+}
+
+function : bool & w()  //error - float not equivalent to bool
+{
+    float q;
+    return q;
+}
+
+function : float & v() //error - int not equivalent to float
+{
+    int q;
+    return q;
+}
+
+function : int & e() //error - return expression not mod L
+{
+    return 2;
+}
+
+function : bool & f() //error - return expression not mod L
+{
+    return true;
+}
+
+function : float & g() //error - return expression not mod L
+{
+    return 2.5;
+}
+
+function : int h()  //error - missing return expression
+{
+    return;
+}
+
+function : bool i()  //error - missing return expression
+{
+    return;
+}
+
+function : float j() //error - missing return expression
+{
+    return;
+}
+
+function : void k()  //error - int not assignable to void
+{
+    return 2;
+}
+
+function : void l()  //error - bool not assignable to void
+{
+    return true;
+}
+
+function : void m()  //error - float not assignable to void
+{
+    return 2.5;
+}
+
+function : int n()  //error - missing return
+{
+
+}
+
+function : int o()  //error - missing return
+{
+    if(true)
+    {
+        return 1;
+    }
+}
+
+function : int p() //error - missing return
+{
+    while(true)
+    {
+        return 1;
+    }
+}
+
+function : void main()
+{
+    return;
+}

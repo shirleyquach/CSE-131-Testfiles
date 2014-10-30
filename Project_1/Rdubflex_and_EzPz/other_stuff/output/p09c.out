@@ -1,0 +1,3 @@
+Error, "p09c.rc": 
+  Value of type BBB not assignable to variable of type NOT.
+Compile: failure.

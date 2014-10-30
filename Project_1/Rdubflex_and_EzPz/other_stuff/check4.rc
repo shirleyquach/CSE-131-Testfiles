@@ -1,0 +1,38 @@
+function : void foo()
+{
+    //none of these are of int or bool type
+    //we're testing VarSTO, ExprSTO and ConstSTO's here
+    
+    float y;
+    
+    while(5.5)
+    {
+    
+    }
+    
+    if(5.5)
+    {
+    
+    }
+    
+    while(1 + 3.2)
+    {
+    
+    }
+    
+    if(1 + 3.2)
+    {
+    
+    }
+    
+    while(y)
+    {
+    
+    }
+    
+    if(y)
+    {
+    
+    }
+    
+}

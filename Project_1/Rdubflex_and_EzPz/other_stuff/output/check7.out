@@ -1,0 +1,13 @@
+Error, "check7.rc": 
+  Exit expression (type bool) is not assignable to int.
+Error, "check7.rc": 
+  Exit expression (type float) is not assignable to int.
+Error, "check7.rc": 
+  Exit expression (type bool) is not assignable to int.
+Error, "check7.rc": 
+  Exit expression (type float) is not assignable to int.
+Error, "check7.rc": 
+  Exit expression (type float) is not assignable to int.
+Error, "check7.rc": 
+  Exit expression (type bool) is not assignable to int.
+Compile: failure.

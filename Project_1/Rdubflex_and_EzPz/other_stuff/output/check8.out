@@ -1,0 +1,15 @@
+Error, "check8.rc": 
+  Initialization value of constant named y not known at compile time.
+Error, "check8.rc": 
+  Initialization value of type bool not assignable to constant/variable of type float.
+Error, "check8.rc": 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Error, "check8.rc": 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "check8.rc": 
+  Initialization value of type bool not assignable to constant/variable of type float.
+Error, "check8.rc": 
+  Arithmetic exception occurred during constant folding.
+Error, "check8.rc": 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

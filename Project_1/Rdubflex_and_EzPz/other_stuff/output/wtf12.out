@@ -1,0 +1,12 @@
+Error, "wtf12.rc": 
+  Index expression value (-4123) in array declaration must be > 0.
+Error, "wtf12.rc": 
+  Type of new's operand must be of pointer type, funcptr : int () found.
+Error, "wtf12.rc": 
+  Incompatible type funcptr : int () to operator ++, equivalent to int, float, or pointer expected.
+Error, "wtf12.rc": 
+  Incompatible types to operator ==:
+    funcptr : int (),
+    int;
+  both must be of equivalent pointer type.
+Compile: failure.

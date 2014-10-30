@@ -1,0 +1,22 @@
+function : void a()
+{
+    exit(1);
+}
+
+function : void b()
+{
+    int a;
+    exit(a);
+}
+
+function : void c()
+{
+    int a;
+    exit(a+1);
+}
+
+function : void d()
+{
+    int a, b;
+    exit(a+b);
+}

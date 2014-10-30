@@ -1,0 +1,37 @@
+function : int a(int a, bool b, float c) { return 1;}
+function : float b(int a, bool b, float c) {return 3.5; }
+function : bool c(int a, bool b, float c) {return true; }
+function : int & d(int & a, bool & b, float & c) {int h; return h; }
+function : float & e(int & a, bool & b, float & c) {float h; return h; }
+function : bool & f(int & a, bool & b, float & c) { bool h; return h; }
+function : void g(){ }
+
+function : void main()
+{
+    int h;
+    bool i;
+    float j;
+    
+    a(1, true, 2.5);
+    b(1, true, 2.5); 
+    c(1, true, 2.5); 
+    
+    d(h, i, j); 
+    e(h, i, j);
+    f(h, i, j); 
+    
+    d(h, i, j); 
+    e(h, i, j); 
+    f(h, i, j); 
+    d(d(h, i, j), f(h, i, j), e(h, i, j)); 
+    e(d(h, i, j), f(h, i, j), e(h, i, j)); 
+    f(d(h, i, j), f(h, i, j), e(h, i, j)); 
+    
+    h = h + a(h, i, j); 
+    i = i || c(h, i, j); 
+    j = j + b(h, i, j); 
+    
+    d(h, i, j) = 3; 
+    f(h, i, j) = true; 
+    e(h, i, j) = 3.5; 
+}

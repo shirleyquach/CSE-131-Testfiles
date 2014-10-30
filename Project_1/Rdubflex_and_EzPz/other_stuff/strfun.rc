@@ -1,0 +1,24 @@
+int z;
+
+function : void bar(int a, int b) {}
+
+
+structdef ABC {
+	int x, y;
+	function : void foo(int a) {
+		while(true) {
+			int u;
+			foo(z);		// Should look outside of struct scope
+			this.foo(z);	// Should look inside struct scope
+		}
+	}
+
+	function : void asdf() {
+		int u, v;
+		this.bar(u, v);	// Should fail, no bar in struct
+		bar(u,v);	// Should pass, bar found in global scope
+	}
+
+
+
+};

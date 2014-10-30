@@ -1,0 +1,3 @@
+Error, "p13d.rc": 
+  Size of field myRecursiveStruct cannot be determined at compile time.
+Compile: failure.

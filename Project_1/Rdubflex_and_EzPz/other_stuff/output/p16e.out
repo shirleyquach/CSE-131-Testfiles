@@ -1,0 +1,3 @@
+Error, "p16e.rc": 
+  Operand to "delete" is not a modifiable L-value.
+Compile: failure.

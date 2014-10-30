@@ -1,0 +1,5 @@
+Error, "p15a.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "p15a.rc": 
+  Value of type bool not assignable to variable of type int.
+Compile: failure.

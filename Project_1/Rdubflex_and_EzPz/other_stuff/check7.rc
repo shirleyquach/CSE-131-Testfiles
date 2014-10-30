@@ -1,0 +1,33 @@
+function : void a()
+{
+    exit(true);
+}
+
+function : void b()
+{
+    exit(2.5);
+}
+
+function : void c()
+{
+    bool a;
+    exit(a);
+}
+
+function : void d()
+{
+    float a;
+    exit(a);
+}
+
+function : void e()
+{
+    float a, b;
+    exit(a + b);
+}
+
+function : void f()
+{
+    bool a, b;
+    exit(a || b);
+}

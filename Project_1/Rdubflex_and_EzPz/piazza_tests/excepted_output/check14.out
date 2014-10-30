@@ -1,0 +1,9 @@
+Error, "check14.rc": 
+  Referenced field y not found in current struct.
+Error, "check14.rc": 
+  Referenced field foo2 not found in current struct.
+Error, "check14.rc": 
+  Type of expression referenced by "." (int) is not a struct.
+Error, "check14.rc": 
+  Referenced field y not found in type NODE.
+Compile: failure.

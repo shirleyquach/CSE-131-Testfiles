@@ -1,0 +1,11 @@
+Error, "p15b.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "p15b.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "p15b.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "p15b.rc": 
+  Value of type YOURSTRUCT not assignable to variable of type MYSTRUCT.
+Error, "p15b.rc": 
+  Value of type YOURSTRUCT* not assignable to variable of type PS.
+Compile: failure.

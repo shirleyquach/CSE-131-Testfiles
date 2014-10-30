@@ -1,0 +1,17 @@
+structdef MYS {
+	int x;
+	int y;
+};
+
+function : void main()
+{
+	int * z;
+	MYS* a;
+	(*a).x = 1;
+	a->y = 2;
+	*z = 3;
+	
+	int[4] q;
+	int* s = q;
+	
+}

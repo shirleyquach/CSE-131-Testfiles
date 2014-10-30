@@ -1,0 +1,131 @@
+Error, "check1.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "check1.rc": 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: int == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: bool != int;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: float != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible types to operator: int != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "check1.rc": 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type int to binary operator &&, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "check1.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Compile: failure.

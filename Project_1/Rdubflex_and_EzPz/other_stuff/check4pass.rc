@@ -1,0 +1,68 @@
+function : void foo()
+{
+    //int x;
+    //int z;
+    bool y;
+    bool w;
+    
+    //if(x)
+    //{ 
+    //}   
+    //while(x)
+    //{    
+    //}  
+    if(y)
+    {    
+    }    
+    while(y)
+    {    
+    }    
+    if(1)
+    {   
+    }    
+    while(1)
+    {   
+    }   
+    if(true)
+    {   
+    }   
+    while(true)
+    {   
+    }   
+    //if(x + z)
+    //{   
+    //}   
+    //while(x + z)
+    //{   
+    //} 
+    if(w || y)
+    {  
+    }  
+    while(w || y)
+    {  
+    } 
+    if(1 + 2)
+    {   
+    }  
+    while(1 + 2)
+    {  
+    }
+    if(true || true)
+    {
+    }
+    while(true || true)
+    {  
+    }
+    //if(x=2)
+    //{
+    //}
+    //while(x=2)
+    //{
+    //}
+    if(y=true)
+    {
+    }
+    while(y=true)
+    {
+    }
+}

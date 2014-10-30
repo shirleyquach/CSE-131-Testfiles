@@ -1,0 +1,9 @@
+function : void main()
+{
+	continue;
+}
+
+function : void a()
+{
+	break;
+}

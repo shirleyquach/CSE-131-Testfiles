@@ -1,0 +1,9 @@
+function : void main()
+{
+	int* x;
+	int y;
+	new x;			//no error
+	new y;			//should throw error
+	delete x;		//no error
+	delete y;		//should throw error
+}

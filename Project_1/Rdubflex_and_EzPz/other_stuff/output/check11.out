@@ -1,0 +1,3 @@
+Error, "check11.rc": 
+  Initialization value of type int[3] not assignable to constant/variable of type int[4].
+Compile: failure.

@@ -1,0 +1,17 @@
+Error, "check3.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "check3.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "check3.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "check3.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "check3.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "check3.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "check3.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "check3.rc": 
+  Value of type int not assignable to variable of type bool.
+Compile: failure.

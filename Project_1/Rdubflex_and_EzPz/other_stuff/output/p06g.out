@@ -1,0 +1,13 @@
+Error, "p06g.rc": 
+  Return required in function, none found.
+Error, "p06g.rc": 
+  Return in function requires a result expression, none found.
+Error, "p06g.rc": 
+  Return required in function, none found.
+Error, "p06g.rc": 
+  Return required in function, none found.
+Error, "p06g.rc": 
+  Return required in function, none found.
+Error, "": 
+  Return required in function, none found.
+Compile: failure.

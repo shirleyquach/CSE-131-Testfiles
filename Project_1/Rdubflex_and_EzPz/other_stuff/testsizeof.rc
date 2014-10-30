@@ -1,0 +1,63 @@
+typedef int[3] ARR3;	//size 12
+typedef ARR3[5] ARR35;	//size 60
+typedef ARR35[3] ARR353;//size 180
+
+function : void foo( int & i) {}
+
+// size 28
+structdef STRUCT28{
+	int x, y;
+	float z;
+	int * v;
+	int[2] u;
+	STRUCT28 * s28;
+	function : int foo() {
+		return 5;
+	}
+};
+
+function : void main() {
+	sizeof(nullptr);	//error
+	int a;
+	sizeof(a);		//4
+	sizeof(int);		//4
+	float b;
+	sizeof(b);		//4
+	sizeof(float);		//4
+	bool c;
+	sizeof(c);		//4
+	sizeof(bool);		//4
+	sizeof(int*);		//4
+	
+	ARR3 arr;
+	ARR3[2] arr32;
+	// 1D Arrays
+	sizeof(arr);		//12
+	int[sizeof(arr)] arrso;	// Create array of size 12
+	sizeof(arrso);		//48
+	sizeof(arr[1]);		//4
+	sizeof(arr[sizeof(arr)]);	// Error, access outside of bounds
+	sizeof(int[3]);		//12
+	// 2D Arrays
+	sizeof(ARR3[2]);	//24
+	sizeof(arr32);		//24
+	ARR35 arr35;
+	sizeof(ARR35);		//60
+	sizeof(arr35);		//60
+	sizeof(arr35[2]);	//12
+	// 3D Arrays
+	ARR353 arr353;			
+	sizeof(ARR353);		//180
+	sizeof(arr353);		//180
+	sizeof(ARR35[2]);	//120
+
+	STRUCT28 str28;
+	sizeof(str28);		//28
+	sizeof(STRUCT28);	//28
+	sizeof(str28.x);	//4
+	sizeof(str28.s28);	//4
+	sizeof(str28.u);	//8
+	
+	sizeof(foo);		//Error
+	foo(sizeof(arr));	//Size is 12, but will cause error since non modL
+}

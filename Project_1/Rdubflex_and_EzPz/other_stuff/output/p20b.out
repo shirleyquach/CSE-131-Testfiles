@@ -1,0 +1,3 @@
+Error, "p20b.rc": 
+  Index value of 24 is outside legal range [0,20).
+Compile: failure.

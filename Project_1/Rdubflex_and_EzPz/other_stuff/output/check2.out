@@ -1,0 +1,25 @@
+Error, "check2.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "check2.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "check2.rc": 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "check2.rc": 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "check2.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "check2.rc": 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

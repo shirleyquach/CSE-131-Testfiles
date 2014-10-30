@@ -1,0 +1,3 @@
+Error, "p18b.rc": 
+  Type of new's operand must be of pointer type, funcptr : int () found.
+Compile: failure.

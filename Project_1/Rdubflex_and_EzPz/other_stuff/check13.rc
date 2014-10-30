@@ -1,0 +1,8 @@
+structdef MYS { 
+	MYS a;
+};
+
+function : void main()
+{
+
+}

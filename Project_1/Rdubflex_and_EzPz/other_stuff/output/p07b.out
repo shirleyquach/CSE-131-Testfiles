@@ -1,0 +1,7 @@
+Error, "p07b.rc": 
+  Exit expression (type float) is not assignable to int.
+Error, "p07b.rc": 
+  Exit expression (type bool) is not assignable to int.
+Error, "p07b.rc": 
+  Exit expression (type bool) is not assignable to int.
+Compile: failure.

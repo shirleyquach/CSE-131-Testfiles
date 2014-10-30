@@ -1,0 +1,3 @@
+Error, "p18d.rc": 
+  Value of type funcptr : int (int x, int y) not assignable to variable of type MYPTRALIAS.
+Compile: failure.

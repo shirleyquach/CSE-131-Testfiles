@@ -1,0 +1,9 @@
+Error, "testsizeof.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "testsizeof.rc": 
+  Index value of 12 is outside legal range [0,3).
+Error, "testsizeof.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "testsizeof.rc": 
+  Argument passed to reference parameter i (type int) is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,51 @@
+Error, "check17.rc": 
+  Incompatible types to operator ==:
+    int*,
+    int**;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator !=:
+    int*,
+    int**;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator ==:
+    int*,
+    int;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator !=:
+    int*,
+    int;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator ==:
+    nullptr,
+    int;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator !=:
+    nullptr,
+    int;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator ==:
+    int,
+    nullptr;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible types to operator !=:
+    int,
+    nullptr;
+  both must be of equivalent pointer type.
+Error, "check17.rc": 
+  Incompatible type nullptr to operator ++, equivalent to int, float, or pointer expected.
+Error, "check17.rc": 
+  Incompatible type nullptr to operator --, equivalent to int, float, or pointer expected.
+Error, "check17.rc": 
+  Incompatible type nullptr to operator ++, equivalent to int, float, or pointer expected.
+Error, "check17.rc": 
+  Incompatible type nullptr to operator --, equivalent to int, float, or pointer expected.
+Error, "check17.rc": 
+  Value of type nullptr not assignable to variable of type int.
+Compile: failure.

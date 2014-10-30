@@ -1,0 +1,9 @@
+
+
+
+structdef ABC {
+	int x, y;
+	ABC * [5] azz; 	// Should pass, ptrs have determined size
+	ABC [5] zza;	// Should fail, indeterminate size
+
+};

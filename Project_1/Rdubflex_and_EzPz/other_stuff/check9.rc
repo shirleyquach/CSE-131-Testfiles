@@ -1,0 +1,11 @@
+function : void main()
+{
+	typedef int INTEGER;
+	typedef int FLOAT;
+	typedef FLOAT F2;
+	typedef bool BOOL;
+	
+	const INTEGER x = 1;
+	const BOOL z = true;
+	
+}

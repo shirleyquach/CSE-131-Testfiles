@@ -1,0 +1,5 @@
+Error, "strfun.rc": 
+  undeclared identifier 'foo'.
+Error, "strfun.rc": 
+  Referenced field bar not found in current struct.
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "check22.rc": 
+  Field x declared second time in struct.
+Error, "check22.rc": 
+  'a->x' is not a function.
+Compile: failure.

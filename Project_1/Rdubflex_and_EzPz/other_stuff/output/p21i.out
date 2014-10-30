@@ -1,0 +1,3 @@
+Error, "p21i.rc": 
+  Non-addressable argument of type float to address-of operator.
+Compile: failure.

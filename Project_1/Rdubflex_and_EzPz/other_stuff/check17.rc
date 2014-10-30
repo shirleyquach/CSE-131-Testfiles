@@ -1,0 +1,36 @@
+function : void main()
+{
+	int* x;
+	int** q;
+	int** y;
+	int z;
+	
+	bool a = (x == y); //should be an error, x isn't equivalent to y
+	bool b = (x != y); //should be an error, x isn't equivalent to y
+	bool c = (x == z); //should be an error, x isn't equivalent to z
+	bool d = (x != z); //should be an error, x isn't equivalent to z
+	bool e = (x == nullptr); //should be fine
+	bool f = (x != nullptr); //should be fine
+	bool g = (nullptr == x); //should be fine
+	bool h = (nullptr == x); //should be fine
+	bool i = (nullptr == z); //should not be fine, x is nullptr, z is int
+	bool j = (nullptr != z); //should not be fine, x is nullptr, z is int
+	bool k = (z == nullptr); //should not be fine, x is nullptr, z is int
+	bool l = (z != nullptr); //should not be fine, x is nullptr, z is int
+	bool m = (q == y); //should be fine
+	bool n = (q != y); //should be fine
+	int* o = ++x; //should be fine
+	int* p = --x; //should be fine
+	int* dd = x++; //should be fine
+	int* r = x--; //should be fine
+	int** s = ++y; //should be fine
+	int** t = --y; //should be fine
+	int** u = y++; //should be fine 
+	int** v = y--; //should be fine
+	int w = ++nullptr; //should not be fine - can't do this with nullptr.
+	int aa = --nullptr; //should not be fine - can't do this with nullptr.
+	int bb = nullptr++; //should not be fine - can't do this with nullptr.
+	int cc = nullptr--; //should not be fine - can't do this with nullptr.
+	z = nullptr; //can't happen - can't assign int to nullptr;
+	x = nullptr; //this should work.
+}

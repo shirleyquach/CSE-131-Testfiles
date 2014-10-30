@@ -1,0 +1,18 @@
+int a;
+
+structdef MYS {
+	bool b;
+	float c;
+	function : void d(int e, bool f, float g) {
+		this.b = f;
+		this.c = g; 
+	}
+};
+
+function : void main()
+{
+	MYS a;
+	a.b = true;
+	a.c = 3.5;
+	a.d(1, true, 3.5);
+}

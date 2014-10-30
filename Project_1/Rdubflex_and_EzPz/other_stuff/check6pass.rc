@@ -1,0 +1,91 @@
+function : void a()
+{
+    return;
+ }
+ 
+function : int b()
+{
+    return 1;
+}
+
+function : int c()
+{
+    return  1%1;
+}
+
+function : int d()
+{
+    int a;
+    return a%1;
+}
+
+function : int e()
+{
+    int a;
+    int b;
+    return a%b;
+}
+
+function : bool f()
+{
+    return true;
+}
+
+function : bool g()
+{
+    bool a;
+    return a;
+}
+
+function : bool h()
+{
+    bool a;
+    return !a;
+}
+
+function : bool i()
+{
+    bool a, b;
+    return a&&b;
+}
+
+function : float j()
+{
+    float a;
+    return a;
+}
+
+function : float k()
+{
+    return 3.5;
+}
+
+function : float l()
+{
+    float a;
+    return a + 3.5;
+}
+
+function : float m()
+{
+    float a, b;
+    return a * b;
+}
+
+function : int & n()
+{
+    int a = 2 + 3;
+    return a;
+}
+
+function : float & o()
+{
+    float a = 3.5 * 2.5;
+    return a;
+}
+
+function : bool & p()
+{
+    bool a = true || false;
+    return a;
+}

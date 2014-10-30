@@ -1,0 +1,5 @@
+Error, "p04c.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "p04c.rc": 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

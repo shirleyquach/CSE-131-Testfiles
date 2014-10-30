@@ -1,0 +1,3 @@
+Error, "p14c.rc": 
+  Type of expression referenced by "." (float) is not a struct.
+Compile: failure.

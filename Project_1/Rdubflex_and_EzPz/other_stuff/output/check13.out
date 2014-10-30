@@ -1,0 +1,3 @@
+Error, "check13.rc": 
+  Size of field a cannot be determined at compile time.
+Compile: failure.

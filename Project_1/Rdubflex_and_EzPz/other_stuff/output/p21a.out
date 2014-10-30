@@ -1,0 +1,7 @@
+Error, "p21a.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "p21a.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "": 
+  Return required in function, none found.
+Compile: failure.

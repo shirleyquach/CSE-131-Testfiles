@@ -1,0 +1,10 @@
+structdef MYS {
+	function : int x(int a) {return 0; }
+	function : int x(int b) { return 1; }
+};
+
+function : void main()
+{
+	MYS* a;
+	a->x(1, true);
+}

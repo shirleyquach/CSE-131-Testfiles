@@ -1,0 +1,3 @@
+Error, "p21h.rc": 
+  Non-addressable argument of type funcptr : int () to address-of operator.
+Compile: failure.

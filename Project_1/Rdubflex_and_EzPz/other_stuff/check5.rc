@@ -1,0 +1,44 @@
+function : int a(int a, bool b, float c) { }
+function : float b(int a, bool b, float c) { }
+function : bool c(int a, bool b, float c) { }
+function : int d(int & a, bool & b, float & c) { }
+function : float e(int & a, bool & b, float & c) { }
+function : bool f(int & a, bool & b, float & c) { }
+function : void g(){ }
+
+function : void main()
+{
+    int h;
+    bool i;
+    float j;
+    
+    a(1, true, 3.5, 4); //should fail, too many arguments
+    b(1, true, 3.5, 4); //should fail, too many arguments
+    c(1, true, 3.5, 4); //should fail, too many arguments
+    d(1, true, 3.5, 4); //should fail, too many arguments
+    e(1, true, 3.5, 4); //should fail, too many arguments
+    f(1, true, 3.5, 4); //should fail, too many arguments
+    
+    a(true, 1, true); //three errors - all three not assignable
+    b(true, 1, true); //three errors - all three not assignable
+    c(true, 1, true); //three errors - all three not assignable
+    
+    d(j, h, i); //three errors - parameters aren't equivalent
+    e(j, h, i); //three errors - parameters aren't equivalent
+    f(j, h, i); //three errors - parameters aren't equivalent
+    
+    d(1, true, 2.5+3); //three errors - all aren't mod-l
+    e(1+2, true, 2.5); //three errors - all aren't mod-l
+    f(1, true || false, 2.5); //three errors - all aren't mod-l
+    d(a(1,true,2.5), c(1,true,2.5), b(1,true,2.5)); //three errors - all aren't mod-l
+    e(a(1,true,2.5), c(1,true,2.5), b(1,true,2.5)); //three errors - all aren't mod-l
+    f(a(1,true,2.5), c(1,true,2.5), b(1,true,2.5)); //three errors - all aren't mod-l
+    
+    h = a + c(h, i, j); //error - bool not valid for + operation
+    i = b || b(h, i, j); //error - float not valid for || operation
+    j = c + c(h, i, j); //error - bool not valid for + operation
+    
+    a = 3; //error - a isnt mod-l
+    b = true; //error - b isn't mod-l
+    c = 3.5; //error - c isn't mod-l
+}

@@ -1,0 +1,3 @@
+Error, "p16d.rc": 
+  Operand to "new" is not a modifiable L-value.
+Compile: failure.

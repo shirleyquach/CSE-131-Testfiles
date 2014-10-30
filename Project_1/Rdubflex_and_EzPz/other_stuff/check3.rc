@@ -1,0 +1,19 @@
+function : void foo()
+{
+    bool x;
+    int y;
+    float z;
+    
+    1 = 3 = 4 = 2; //should throw one error at 4
+    5 = 4 = 3 = 2; //should throw one error at 3
+    x = y = 4 = 3; //should throw one error at 4
+    x = 3 = y = 4; //should throw one error at 3
+    x = 3 = 5 = y; //should throw one error at 5
+  
+    x = 1;    //should throw error since you can't assign int to bool
+    x = 1.5;  //should throw error since you can't assign float to bool
+    y = true; //should throw error since you can't assign bool to int
+    y = 1.5;  //should throw error since you can't assign float to int
+    z = true; //should throw error since you can't assign bool to float
+    x = y = y = 5; //should throw error since you can't assign int to bool
+}

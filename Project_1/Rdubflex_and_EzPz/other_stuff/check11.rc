@@ -1,0 +1,6 @@
+function : void main()
+{
+	int[3]     x; 
+	int[4] q = x;
+	
+}

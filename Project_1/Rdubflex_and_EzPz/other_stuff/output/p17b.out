@@ -1,0 +1,11 @@
+Error, "p17b.rc": 
+  Incompatible types to operator !=:
+    int,
+    int*;
+  both must be of equivalent pointer type.
+Error, "p17b.rc": 
+  Incompatible types to operator ==:
+    float*,
+    int;
+  both must be of equivalent pointer type.
+Compile: failure.

@@ -1,0 +1,19 @@
+function : void main()
+{	
+	int x;
+	const int y = x;
+	
+	const bool z = true;
+	const float e = z;	
+	
+	const bool p = true;
+	const int n = 1;
+	const float m = 1.5;
+	
+	const int o = true || p;
+	const bool ap = 	1 + n;
+	const float l = true || p;
+	
+	const float aa = 5 / 0;
+	const int d = 1 % 0;
+}

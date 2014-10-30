@@ -1,0 +1,18 @@
+function : void main()
+{
+	const int h = 3;
+	int e;
+	bool f;
+	float g;
+	int[true] a;    //bool not valid array size
+	int[3.5] b;     //float not valid array size
+	int[true || true] d;  //bool not valid array size
+	int[3.5 * 4.2] c;  //float not valid array size
+	float[e] i;   //e not known at compile time
+	float[f] j;   //f not valid array size
+	float[g] k;   //g not valid array size
+	float[h + e] l; //h + e not known at compile time.
+	
+	int[-1] k; //-1 is less than 0
+	
+}

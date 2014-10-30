@@ -1,0 +1,23 @@
+function : void main()
+{
+	while(true)
+	{
+		while(true)
+		{
+			continue;
+		}
+		continue;
+	}
+}
+
+function : void a()
+{
+	while(true)
+	{
+		while(true)
+		{
+			break;
+		}
+		break;
+	}
+}

@@ -1,0 +1,3 @@
+Error, "strarray.rc": 
+  Size of field zza cannot be determined at compile time.
+Compile: failure.
